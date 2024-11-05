@@ -1,5 +1,3 @@
-from operator import index, indexOf
-
 from linkedlist import TuplesLinkedList
 
 class HashTable:
