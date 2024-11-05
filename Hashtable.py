@@ -34,7 +34,7 @@ class HashTable:
 internalListObj = HashTable(4)
 internalListObj.put("cat", 32)
 internalListObj.put("dog", 33)
-internalListObj.put("god", 33)
+internalListObj.put("god", 34)
 
 print(internalListObj.get("dog"))
 print(internalListObj.get("god"))
