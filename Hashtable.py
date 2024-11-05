@@ -31,10 +31,10 @@ class HashTable:
     def get(self, key):
         return self.internalList[self.calcHashCode(key)].find(key)
 
-internalList = HashTable(4)
-internalList.put("cat", 32)
-internalList.put("dog", 33)
-internalList.put("god", 33)
+internalListObj = HashTable(4)
+internalListObj.put("cat", 32)
+internalListObj.put("dog", 33)
+internalListObj.put("god", 33)
 
-print(internalList.get("dog"))
-print(internalList.get("god"))
+print(internalListObj.get("dog"))
+print(internalListObj.get("god"))
